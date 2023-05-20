@@ -1,0 +1,587 @@
+/***********************************general settings***************************************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: none;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+img {
+  object-fit: cover;
+}
+
+/*********************************************header********************************/
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+/***********************************fonts********************************************/
+h1,
+h2 {
+  font-family: "Assistant", sans-serif;
+  font-weight: 900;
+  color: #060606;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h1:hover {
+  color: #710ef2;
+}
+h2 {
+  font-size: 1.25rem;
+}
+p {
+  font-family: "Assistant", sans-serif;
+  font-size: 1rem;
+}
+
+h3 {
+  font-family: "Assistant", sans-serif;
+  font-weight: 700;
+  color: #060606;
+  font-size: 1.15rem;
+}
+h3:hover {
+  color: #1bdfec;
+}
+
+label {
+  font-family: "Assistant", sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+/**************************************nav********************************/
+
+.nav_header {
+  .icon {
+    width: 50%;
+    padding: 2% 0;
+  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  box-shadow: 0px 3px 5px #999;
+  height: 75px;
+  background-color: rgb(242, 245, 248);
+  z-index: 1;
+}
+
+.ul_header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3% 7% 1% 2%;
+}
+.link_header_ {
+  margin: 2%;
+  padding: 0 2% 0 2%;
+}
+.link_header {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: black;
+}
+
+.link_header:hover {
+  color: rgb(69, 66, 66);
+  font-weight: 700;
+}
+
+/******************************************logo_nav*****************************************/
+.logo_header {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.img_header {
+  width: 55px;
+  height: 55px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.myname_header {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/********************************************header_title***************************************/
+.title_header {
+  padding-bottom: 4%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-color: #b3f3f7;
+  background-image: url(../img/bg\ .jpeg);
+  background-blend-mode: multiply;
+}
+.title_title_header {
+  font-family: "Assistant", sans-serif;
+  padding-top: 60px;
+  font-weight: 700;
+}
+.title_content {
+  font-weight: 900;
+}
+.text_title_header {
+  padding: 2% 15% 0 10%;
+  font-size: 1rem;
+}
+
+/*************************************logo_tecnologies************************************/
+.my_tecnologies_header {
+  box-shadow: 0px 1px 5px #999;
+}
+.img_tecnologies_header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img_tecnologies {
+  width: 60%;
+  transition: 1s;
+}
+.img_tecnologies:hover {
+  transform: scale(1.2);
+}
+/************************************main******************************************/
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile_img_aboutMe {
+  width: 175px;
+  margin-top: 17%;
+  margin-right: 8%;
+  transition: 1s;
+}
+.profile_img_aboutMe:hover {
+  transform: scale(1.4);
+}
+.about_me_aboutMe {
+  font-size: 20px;
+  width: 90%;
+  margin: 2%;
+  padding: 0 2% 0 0;
+}
+.text_aboutMe {
+  margin-top: 2%;
+  text-align: center;
+}
+
+/*************************************pdf****************************************/
+.pdf {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #2e2e2e;
+  color: #ffffff;
+  width: 100%;
+}
+.upload {
+  padding: 3%;
+  width: 90%;
+}
+.title_upload_main {
+  color: #ffffff;
+}
+.text_upload_main {
+  margin: 8% 0 4% 0;
+}
+.upload_button_main {
+  width: 200px;
+  height: 30px;
+  background-color: #1bdfec;
+  border-radius: 20px;
+  align-content: space-around;
+}
+
+.upload_button_main:hover {
+  background-color: #75adb1;
+  box-shadow: 0 0px 12px rgb(222, 217, 217);
+}
+.upload_button_main:active {
+  color: #f4dcdc;
+  box-shadow: none;
+}
+
+svg {
+  width: 12%;
+}
+
+.img_pdf_main {
+  align-self: center;
+  background-color: #2e2e2e;
+  background-image: url(./img/pdf.jpeg);
+  background-blend-mode: multiply;
+  flex: 0 1 auto;
+}
+
+.img_pdf {
+  height: 100px;
+  transform: rotate(-15deg);
+  margin: 7.5%;
+}
+
+/*****************************************card******************************************/
+.card_section {
+  background-color: #f3f3f3;
+  width: 100%;
+  font-family: "Assistant", sans-serif;
+}
+.card {
+  transition: 1s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.row {
+  align-self: center;
+  padding: 0 12% 10% 12%;
+}
+
+.my_work_conteiner {
+  padding: 5% 0 1% 0;
+}
+.card-body {
+  text-align: center;
+}
+.card_title {
+  text-align: center;
+  font-weight: 600;
+}
+.card-title {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+}
+
+.card {
+  margin: 3%;
+  border-radius: 10px;
+}
+.btn {
+  width: 100px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  background-color: #1bdfec;
+  color: #060606;
+  border-radius: 15px;
+  border: none;
+  margin-top: 1%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.btn:hover {
+  background-color: #627576;
+  border-radius: 40px;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.btn:active {
+  background-color: #95a9ab;
+}
+.card-img-top {
+  border-radius: 10px 10px;
+}
+
+/*****************************************form***************************************/
+.form {
+  width: 100%;
+  background-size: cover;
+  background-color: #b3f3f7;
+  background-image: url(../img/bg\ .jpeg);
+  background-blend-mode: multiply;
+}
+.form_form {
+  width: 100%;
+  align-self: center;
+  padding: 5% 12% 6% 12%;
+}
+
+input {
+  border: none;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border-bottom: 3px solid #707070;
+}
+textarea {
+  width: 100%;
+  height: 80px;
+  border: none;
+  border-radius: 2px;
+  border-bottom: 3px solid #707070;
+}
+.title_form {
+  font-weight: 700;
+  padding-bottom: 3%;
+}
+
+.form_input {
+  padding-top: 3%;
+}
+input,
+textarea {
+  padding-right: 3%;
+}
+
+.form_button {
+  border: none;
+  background-color: #1bdfec;
+  color: #060606;
+  font-family: "Assistant", sans-serif;
+  font-weight: 700;
+  width: 20%;
+  padding: 2%;
+  margin-top: 3%;
+  text-align: center;
+  border-radius: 2px;
+}
+
+/*************************************contactUs******************************************/
+.footer_icon {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2% 2%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.icon {
+  width: 50%;
+  padding: 2% 0;
+}
+.icon_title {
+  font-weight: 700;
+  font-family: "Assistant", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+/**********************************author************************************************/
+.author {
+  font-size: 0.8rem;
+  color: #ffffff;
+  background-color: black;
+}
+
+/*****************************************נספח3_**************************************/
+.lan_logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  text-align: right;
+}
+.button_2 {
+  width: 145px;
+}
+.img_lan {
+  width: 95%;
+  height: 90%;
+  box-shadow: 0px 4px 10px #999;
+}
+.my_lan_tec_hed {
+  max-height: 75px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.img_lan_tec_hed {
+  flex-wrap: nowrap;
+}
+
+.img_lan_tec {
+  width: 65%;
+}
+.main_lan {
+  padding: 10% 0;
+  display: flex;
+  justify-content: center;
+  background-color: #eafeff;
+}
+
+/*****************************************media****************************************/
+@media (min-width: 950px) {
+  /**************font**********/
+
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  label {
+    font-size: 1rem;
+  }
+
+  .text_title_header {
+    font-size: 1.25rem;
+  }
+  /*********************/
+  .nav_header {
+    height: 90px;
+  }
+  .ul_header {
+    padding: 3% 2% 1% 0;
+  }
+
+  .link_header {
+    margin: 2%;
+    padding: 0 2% 0 2%;
+    font-weight: 400;
+    color: black;
+    font-size: 1.5rem;
+  }
+  .logo_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .myname_header {
+    font-size: 1.75rem;
+  }
+
+  .title_header {
+    justify-content: center;
+    height: 350px;
+  }
+  .img_header {
+    width: 65px;
+    height: 65px;
+  }
+  .aboutMe {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .about_me_aboutMe {
+    width: 60%;
+  }
+  .text_aboutMe {
+    margin-top: 2%;
+    text-align: right;
+  }
+
+  .upload {
+    padding: 3%;
+    width: 45%;
+  }
+
+  .pdf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: right;
+  }
+  .img_tecnologies {
+    width: 100%;
+  }
+  .btn {
+    width: 150px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .form_form {
+    width: 60%;
+  }
+  .icon {
+    width: 15%;
+  }
+  /***********הצגעת עמו***********/
+  .my_lan_tec_hed {
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .img_lan_tec {
+    width: 100%;
+  }
+
+  .img_lan {
+    width: 75%;
+    height: 60%;
+    box-shadow: 0px 4px 10px #999;
+  }
+}
+@media (min-width: 550px) and (max-width: 949px) {
+  .ul_header {
+    width: 90%;
+    padding: 3% 2% 1% 0;
+  }
+  .myname_header {
+    font-size: 1.5rem;
+  }
+  .link_header {
+    font-size: 1.3rem;
+  }
+  .icon {
+    width: 33%;
+    padding: 2% 0;
+  }
+}
